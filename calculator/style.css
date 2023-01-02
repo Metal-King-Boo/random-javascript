@@ -1,0 +1,73 @@
+body {
+	background-color: tan;
+}
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+input {
+	width: 267px;
+	height: 50px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+div {
+	background-color: blue;
+	width: 278px;
+	margin: auto;
+	
+}
+
+button {
+	width: 60px;
+	height: 50px;
+	background-color: white;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+button:hover {
+	background-color: gray;
+	
+}
+
+.opBtn {
+	background-color: green;
+	color: white;
+}
+
+.opBtn:hover {
+	background-color: purple;
+}
+
+.clrBtn {
+	background-color: red;
+	color: white;
+}
+
+.clrBtn:hover {
+	background-color: cyan;
+	color: black;
+}
+
+.memTape {
+	background-color: red;
+	width: 278px;
+	margin: auto;
+	height: 60px;
+}

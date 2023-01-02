@@ -1,0 +1,68 @@
+body {
+	background-color: skyblue;
+}
+
+h1 {
+	padding-left: 125px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	height: 30px;
+	width: 72.75px;
+}
+
+button:hover {
+	background-color: white;
+	color: black;
+}
+
+td {
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	font-size: 20px;
+}
+
+th {
+	text-align: center;
+	height: 50px;
+	width: 50px;
+	font-size: 28px;
+}
+
+#calendiv {
+	background-color: tan;
+	height: 419px;
+	width: 380px;
+}
+
+#numberedDay {
+	background-color: white;
+	text-align: center;
+}
+
+#weekEnd {
+	background-color: white;
+	color: red;
+	text-align: center;
+}
+
+#currentDay {
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+#emptyCell {
+	background-color: lightgray;
+}
+
+#daysOfWeek {
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+}
+
+

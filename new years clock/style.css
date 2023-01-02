@@ -1,0 +1,21 @@
+h1 {
+	color: red;
+	text-align: center;
+	font-family: "Georgia";
+}
+
+h2 {
+	color: purple;
+	text-align: center;
+	font-family: "Georgia";
+}
+
+p {
+	color: green;
+	text-align: center;
+	font-family: "Helvetica";
+}
+
+body {
+	background-color: tan;
+}

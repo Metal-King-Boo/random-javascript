@@ -1,0 +1,46 @@
+<doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script src="function.js" ></script>
+		<title>Four Function Calculator</title>
+	</head>
+	<body>
+		<br />
+		<h1>Calculator</h1>
+		<div>
+			<input id="calcScreen" />
+			<br />
+			<!-- -->
+			<button type="button" class="clrBtn" onclick="clearScreen()">CLEAR</button>
+			<button type="button" onclick="deleteChar()">BACK</button>
+			<button type="button" class="opBtn" onclick="mathSquare()">x^y</button>
+			<button type="button" class="opBtn" onclick="operationals('+')">+</button>
+			<br />
+			<button type="button" onclick="numerals(7)">7</button>
+			<button type="button" onclick="numerals(8)">8</button>
+			<button type="button" onclick="numerals(9)">9</button>
+			<button type="button" class="opBtn" onclick="operationals('-')">-</button>
+			<br />
+			<button type="button" onclick="numerals(4)">4</button>
+			<button type="button" onclick="numerals(5)">5</button>
+			<button type="button" onclick="numerals(6)">6</button>
+			<button type="button" class="opBtn" onclick="operationals('*')">x</button>
+			<br />
+			<button type="button" onclick="numerals(1)">1</button>
+			<button type="button" onclick="numerals(2)">2</button>
+			<button type="button" onclick="numerals(3)">3</button>
+			<button type="button" class="opBtn" onclick="operationals('/')">/</button>
+			<br />
+			<button type="button" onclick="numerals('.')">.</button>
+			<button type="button" onclick="numerals(0)">0</button>
+			<button type="button" onclick="numerals('-')">(-)</button>
+			<button type="button" class="clrBtn" onclick="solution()">=</button>
+		</div>
+		<br />
+		<h2>Memory Tape</h2>
+		<div class="memTape">
+			<input id="memScreen" />
+		</div>
+	</body>
+</html>
